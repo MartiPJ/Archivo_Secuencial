@@ -17,7 +17,7 @@ import java.io.PrintWriter;
  */
 public class Main {
     
-private void escribirFichero() throws IOException {
+private void generarLista() throws IOException {
         String nombre = "Edgar";
         String numero = "55123412";
         String edad = "24";
@@ -42,7 +42,7 @@ private void escribirFichero() throws IOException {
     
     public static void main(String[] args) throws IOException {
         Main main = new Main();
-        main.escribirFichero();
+        main.generarLista();
     }
 
 }
